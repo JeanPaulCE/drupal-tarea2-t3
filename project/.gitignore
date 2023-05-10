@@ -17,10 +17,13 @@
 # custom module, theme, etc., are not ignored unless you purposely do so.
 vendor
 web/core
-web/module/contrib
+
+web/modules/contrib
+web/themes/contrib
 web/themes/contrib
 web/profiles/contrib
 web/libreries
+
 # Ignore configuration files that may contain sensitive information.
 web/sites/*/settings*.php
 web/sites/*/services*.yml
