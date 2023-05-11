@@ -1,0 +1,23 @@
+uuid: 0ae3a6a2-6f8d-417c-b476-6df3c34bfe13
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cursos_destacados
+    - field.field.block_content.cursos_destacados.field_cursos_destacados
+id: block_content.cursos_destacados.default
+targetEntityType: block_content
+bundle: cursos_destacados
+mode: default
+content:
+  field_cursos_destacados:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: card
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
